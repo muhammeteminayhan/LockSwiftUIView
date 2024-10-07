@@ -9,13 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        LockView(lockType: .biometric, lockPin: "0320", isEnabled: true, lockWhenAppGoesBackground: false) {
+            VStack(spacing: 15) {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                
+                Text("Hello World!")
+            }
         }
-        .padding()
     }
 }
 

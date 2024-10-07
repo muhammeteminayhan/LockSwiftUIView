@@ -11,6 +11,7 @@
 		DF84EBDA2C98767D009C3D14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF84EBD92C98767D009C3D14 /* ContentView.swift */; };
 		DF84EBDC2C98767E009C3D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF84EBDB2C98767E009C3D14 /* Assets.xcassets */; };
 		DF84EBDF2C98767E009C3D14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF84EBDE2C98767E009C3D14 /* Preview Assets.xcassets */; };
+		DF84EBE72C987695009C3D14 /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF84EBE62C987695009C3D14 /* LockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DF84EBD92C98767D009C3D14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF84EBDB2C98767E009C3D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF84EBDE2C98767E009C3D14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF84EBE62C987695009C3D14 /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		DF84EBD62C98767D009C3D14 /* LockSwiftUIView */ = {
 			isa = PBXGroup;
 			children = (
+				DF84EBE52C98768D009C3D14 /* View */,
 				DF84EBD72C98767D009C3D14 /* LockSwiftUIViewApp.swift */,
 				DF84EBD92C98767D009C3D14 /* ContentView.swift */,
 				DF84EBDB2C98767E009C3D14 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				DF84EBDE2C98767E009C3D14 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF84EBE52C98768D009C3D14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF84EBE62C987695009C3D14 /* LockView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				DF84EBDA2C98767D009C3D14 /* ContentView.swift in Sources */,
 				DF84EBD82C98767D009C3D14 /* LockSwiftUIViewApp.swift in Sources */,
+				DF84EBE72C987695009C3D14 /* LockView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +287,7 @@
 				DEVELOPMENT_TEAM = 5LWT4BAF3Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +317,7 @@
 				DEVELOPMENT_TEAM = 5LWT4BAF3Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
